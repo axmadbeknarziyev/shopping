@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.background{
+    background-image: url(img1/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.collapse{
+    padding-left: 240px;
+}
+.navbar-brand img{
+    padding-left: 80px;
+}
+.navbar{
+    background-color: rgba(13, 14, 14, 0.507);
+    height: 100vh;
+}
+.container-fluid{
+    margin-top: -520px;
+}
+.icons p{
+    font-size: 20px;
+    color: white;
+}
+.icons{
+    margin-top: -500px;
+    padding-right: 100px;
+    display: flex;
+}
+.square{
+    width: 500px;
+    height: 25vh;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -400px;
+    background-color: rgba(252, 252, 252, 0.849);
+    filter: blur(0px);
+    padding-top: 40px;
+}
+.square a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.square a:hover{
+    color: red;
+    transition: .5s;
+}
+.row{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    transition: 1s;
+    cursor: pointer;
+}
+.img1{
+    background-size: cover;
+    height: 40vh;
+    background-image: url(img2/1.jpg);
+}
+.img1 h4, h5{
+    padding-left: 40px;
+}
+.img1 h4{
+    padding-top: 110px;
+}
+.img2{
+    height: 40vh;
+    background-image: url(img1/download.jpg);
+    background-size: cover;
+}
+.img2 h4, h5{
+    padding-left: 40px;
+}
+.img2 h4{
+    padding-top: 110px;
+}
+
+.card1{
+    height: 40vh;
+    text-align: center;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+.paragraph{
+    position: absolute;
+    transition: 2s;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(231, 229, 229, 0.582);
+}
+.card1:hover .paragraph {
+    top: 0;
+    height: 100%;
+    transition: 2s;
+}
+.card1 .text1{
+    padding-top: 100px;
+}
+.text1:hover {
+    color: red;
+}
+.col-4{
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+.textred{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+.col-4:hover .textred{
+    top: 0;
+    height: 100%;
+    transition: 1s;
+}
+.whitecub{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 20px 0 0 20px;
+    padding-top: 5px;
+}
+.whitecub p{
+    margin-left: 5px;
+    border: 1px solid rgb(224, 220, 220);
+    width: 50px;
+    height: 50px;
+}
+.textred .top_bottom{
+    padding: 130px 0 0 20px;
+}
+.textred .redHover{
+    transition: .5s;
+}
+.textred .redHover:hover{
+    color: red;
+    transition: .5s;
+}
+.textred .small{
+    font-size: 14px;
+}
+.img_bottom{
+    padding-top: 20px;
+}
+.locate{
+    display: flex;
+}
+.locate p{
+    text-align: center;
+    padding-top:2px;
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+    color: rgb(189, 188, 188);
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 50%;
+}
+.style_text a{
+    text-decoration: none;
+    color: black;
+}
+.style_text ul{
+    list-style-type: none;
+    padding-top: 15px;
+}
+.style_text li{
+    padding-bottom: 7px;
+}
+.footer a{
+    transition: .5s;
+}
+.footer a:hover{
+    color: red;
+    transition: .5s;
+}
+.style_text span{
+    transition: .5s;
+}
+.style_text span:hover{
+    background-color: red;
+    transition: .5s;
+}
+.footer{
+    background-color: rgb(241, 241, 241);
+}
+.topGray{
+    padding-top: 80px;
+}
+.line{
+    width: 100%;
+    border: 1px solid rgb(182, 179, 179);
+    margin: 40px 0 30px 0;
+}
+.ends{
+    display: flex;
+    justify-content: space-between;
+}
+.min_menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.min_menu a{
+    text-decoration: none;
+    color: black;
+}
+.Reserved span{
+    transition: .5s;
+}
+.Reserved span:hover{
+    color: red;
+    transition: .5s;
+}
